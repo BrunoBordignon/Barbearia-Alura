@@ -1,0 +1,53 @@
+/* Cabeçalho e Menu de navegação */
+
+header{
+    background: rgb(187, 189, 255);
+    padding: 20px 0;
+}
+
+.topBox{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #453891;
+    text-decoration: underline;
+}
+
+/* Contatos corpo da página */
+
+
+
+/* Rodapé */
+footer{
+    text-align: center;
+    background: url("/img/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+}
